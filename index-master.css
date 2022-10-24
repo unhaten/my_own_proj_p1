@@ -1,0 +1,56 @@
+.centered-part {
+    /* width: 50%; */
+    font-family: "Roboto Mono", monospace;
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+#main-icon {
+    /* margin: left; */
+    width: 60px;
+    height: 60px;
+    display: inline;
+}
+
+#main-icon-text {
+    font-family: "Roboto Mono", monospace;
+    display: inline;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+#login-text {
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+a {
+    color: black;
+}
+
+#github-btn {
+    font-family: "Roboto Mono", monospace;
+}
+
+.hr-text {
+    margin-top: 20px;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.hr-text:after {
+    background: #fff;
+    content: 'or';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+#left-side-text {
+    text-align: left;
+}
