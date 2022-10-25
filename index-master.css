@@ -50,6 +50,10 @@ a {
     -o-border-radius: 26px;
 }
 
+#github-btn:hover{
+    background: rgb(227, 227, 227);
+}
+
 .hr-text {
     margin-top: 25px;
     border: none;
@@ -100,7 +104,15 @@ a {
     -o-border-radius: 26px;
 }
 
+#login-btn:hover {
+    background: rgb(90, 90, 90)
+}
+
 #reset-pwd-link {
     padding-top: 15px;
     font-size: 11px;
+}
+
+#link:hover{
+    color: rgb(161, 161, 161);
 }
