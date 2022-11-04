@@ -1,0 +1,227 @@
+/* .middle-window {
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+*/
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    /* overflow: hidden; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+        url("bg.jpg");
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    height: 85%;
+    margin-left: 35%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10px;
+}
+.middle-window {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 90%;
+    align-items: center;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+
+.btn-switcher {
+    border: 1px solid white;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 10%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.switch-btn {
+    color: white;
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#post-btn {
+    background-color: rgba(86, 86, 86, 0.7);
+}
+
+#phone-btn:hover {
+    background-color: rgba(86, 86, 86, 0.7);
+}
+
+#input {
+    margin-top: 5%;
+    color: white;
+    background: black;
+    border: 2px solid rgb(255, 217, 0);
+    width: 85.5%;
+    height: 10%;
+    font-size: 28px;
+    border-radius: 10px;
+    padding-left: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.p-reset {
+    text-align: left;
+
+    padding-left: 5%;
+    margin-top: 10px;
+}
+
+#a-p-reset {
+    color: rgb(46, 144, 236);
+}
+
+#a-p-reset:hover {
+    color: rgb(255, 102, 0);
+}
+
+#sign-in {
+    width: 90%;
+    height: 10%;
+    margin-top: 5%;
+    border: 1px solid rgba(254, 222, 77, 0.908);
+    background-color: rgba(254, 222, 77, 0.908);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#sign-in:hover {
+    background-color: rgb(255, 208, 0);
+}
+
+#create-id {
+    margin-top: 5%;
+    color: white;
+    background: black;
+    width: 90%;
+    border: 1px solid rgb(117, 117, 117);
+    height: 10%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#create-id:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+#alternative-sign {
+    margin-top: 10%;
+}
+
+.middle-lower {
+    text-align: center;
+}
+
+/* ! ---------------------------------- */
+/* ! THIS TWO CLASSES ARE DIFFERENT */
+
+.lower-part {
+    color: white;
+}
+.lowest-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ! ---------------------------------- */
+
+i {
+    padding: 12px;
+    background-color: black;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+#qr {
+    border: none;
+}
+
+#qr:hover {
+    background-color: black;
+}
+
+#yandex {
+    background-color: red;
+    width: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+i:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+#support:hover {
+    color: rgb(255, 102, 0);
+}
+
+#incognito-mode:hover {
+    color: rgb(255, 102, 0);
+}
+
+#learn-more {
+    color: white;
+}
